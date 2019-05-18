@@ -18,3 +18,53 @@ body{
         order:2;
     }
 }
+#jb1{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/Geography_03.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 61px);
+    margin-bottom: 0px;
+    color: white;
+}
+.productpic{
+    height: 300px;
+}
+.one_line{
+
+  /* 第一步：先禁止斷行 */
+  white-space: nowrap;
+
+  /* 第二步：超過部份隱藏 */
+  overflow: hidden;
+
+  /* 第三部：表示文字溢出時，顯示省略符號(...) */
+  text-overflow: ellipsis;
+}
+.multiple_line{
+  
+  /* 第一步：設定 display 為 -webkit-box 元素。 */
+  display: -webkit-box;
+
+  /* 第二步：設定 box 的子元素，是由上往下垂直排列。 */
+  -webkit-box-orient: vertical;
+
+  /* 第三步：設定欲顯示的行數，超出則顯示省略符號(...)。 */
+  -webkit-line-clamp: 1;
+
+  /* 第四步：設定超過上述指定之行數時隱藏。 */
+  overflow: hidden;
+  
+  /* 第五步：其它瀏覽器降級方式：給定最大高度 */
+  max-height:24px;
+}
+.th1{
+    background-color: aquamarine;
+    height: 800px;
+}
+.bb
+{
+    background-color: blanchedalmond;
+    height: 600px;
+}
